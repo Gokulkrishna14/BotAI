@@ -1,0 +1,24 @@
+.messageBox{
+    scrollbar-width: thin;
+    scrollbar-color: #888 #e0e0e0;
+}
+
+.messageBox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.messageBox::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+.messageBox::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+
+.messageBox {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #e0e0e0;
+}

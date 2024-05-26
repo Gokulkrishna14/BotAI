@@ -1,9 +1,10 @@
 import {Button } from "@mui/material";
 
-export default function ButtonCompo({children}){
+export default function ButtonCompo({children, onClick}){
 
     return(
         <Button
+        onClick={onClick}
         sx={{
             height: '56px',
             padding: '0 16px',
